@@ -1,3 +1,3 @@
 # install
 
-docker build -t  server:dev .
+docker build -t  fastdfs:dev .
