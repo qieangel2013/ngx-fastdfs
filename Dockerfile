@@ -1,10 +1,8 @@
-#centos
+#ngx-fastdfs
 # Version 0.1
 
-FROM qieangel2013d/centos:latest
+FROM qieangel2013d/ngx-fastdfs:latest
 
 MAINTAINER 904208360@qq.com
 
-RUN yum -y update && yum install -y httpd
-
-CMD ["/etc/init.d/httpd start", "-D", "FOREGROUND"]
+CMD ["/etc/rc.local", "-D", "FOREGROUND"]
