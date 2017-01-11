@@ -22,7 +22,7 @@
  	首先进入php_client
 	./configure --with-php-config=/usr/local/php/bin/php-config
 	make&&make install
-        在php.ini里添加
+	在php.ini里添加
 	extension=fastdfs_client.so
 	[fastdfs_client]
         fastdfs_client.base_path = /home/fastdfs/fastdfs
