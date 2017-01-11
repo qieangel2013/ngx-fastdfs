@@ -25,7 +25,7 @@
 	在php.ini里添加
 	extension=fastdfs_client.so
 	[fastdfs_client]
-        fastdfs_client.base_path = /home/fastdfs/fastdfs
+	fastdfs_client.base_path = /home/fastdfs/fastdfs
 	fastdfs_client.connect_timeout = 2
 	fastdfs_client.network_timeout = 60
 	fastdfs_client.log_level = info
