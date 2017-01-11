@@ -4,7 +4,7 @@
         docker -idt -p 80:80 fastdfs:dev /bin/bash
         进入容器执行
         /etc/rc.local
- ###测试
+###测试
         fdfs_test /etc/fdfs/client.conf upload /home/steven/01.jpg
         ...
         group_name=group1, ip_addr=192.168.1.181, port=23000
