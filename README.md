@@ -2,7 +2,7 @@
         进入docker目录
 	docker build -t  fastdfs:dev .
 ###使用
-        docker -idt -p 80:80 fastdfs:dev /bin/bash
+	docker -idt -p 80:80 fastdfs:dev /bin/bash
 	进入容器执行
 	/etc/rc.local
 ###测试
@@ -19,7 +19,7 @@
 	...
 	example file url: http://192.168.1.181/group1/M00/00/00/wKgdhFTV0ZmAP3AZAPk-Io7D4w8580_big.jpg
  ###php调用
-        首先进入php_client
+ 	首先进入php_client
 	./configure --with-php-config=/usr/local/php/bin/php-config
 	make&&make install
         在php.ini里添加
