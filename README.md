@@ -6,7 +6,7 @@
         进入容器执行
         /etc/rc.local
 ###测试
-        进入容器执行test目录下的./test.sh或者直接执行下面脚本
+	进入容器执行test目录下的./test.sh或者直接执行下面脚本
         fdfs_test /etc/fdfs/client.conf upload /home/steven/01.jpg
         ...
         group_name=group1, ip_addr=192.168.1.181, port=23000
