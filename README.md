@@ -20,23 +20,23 @@
 	example file url: http://192.168.1.181/group1/M00/00/00/wKgdhFTV0ZmAP3AZAPk-Io7D4w8580_big.jpg
  ###php调用
         首先进入php_client
-        ./configure --with-php-config=/usr/local/php/bin/php-config
-        make&&make install
+	./configure --with-php-config=/usr/local/php/bin/php-config
+	make&&make install
         在php.ini里添加
-        extension=fastdfs_client.so
-        [fastdfs_client]
+	extension=fastdfs_client.so
+	[fastdfs_client]
         fastdfs_client.base_path = /home/fastdfs/fastdfs
-        fastdfs_client.connect_timeout = 2
-        fastdfs_client.network_timeout = 60
-        fastdfs_client.log_level = info
-        fastdfs_client.log_filename =
-        fastdfs_client.tracker_group_count = 1
-        fastdfs_client.tracker_group0 = /etc/fdfs/client.conf
-        fastdfs_client.use_connection_pool = true
-        fastdfs_client.connection_pool_max_idle_time = 3600
-        根据自己的情况做相应的修改
-        重启php-fpm
-        执行test目录下的fastdfs.php就可以看到效果了
+	fastdfs_client.connect_timeout = 2
+	fastdfs_client.network_timeout = 60
+	fastdfs_client.log_level = info
+	fastdfs_client.log_filename =
+	fastdfs_client.tracker_group_count = 1
+	fastdfs_client.tracker_group0 = /etc/fdfs/client.conf
+	fastdfs_client.use_connection_pool = true
+	fastdfs_client.connection_pool_max_idle_time = 3600
+	根据自己的情况做相应的修改
+	重启php-fpm
+	执行test目录下的fastdfs.php就可以看到效果了
 ###使用效果
 ![](https://github.com/qieangel2013/ngx-fastdfs/blob/master/images/cut.png)
 ###交流使用
