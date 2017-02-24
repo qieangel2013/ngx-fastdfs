@@ -2,9 +2,7 @@
 	进入docker目录
 	docker build -t  fastdfs:dev .
 ###使用
-	docker run -idt -p 80:80 fastdfs:dev /bin/bash
-	进入容器执行
-	/etc/rc.local
+	docker run --net=host -idt -p 80:80 fastdfs:dev '/etc/rc.local'
 ###测试
 	进入容器执行test目录下的./test.sh或者直接执行下面脚本
 	fdfs_test /etc/fdfs/client.conf upload /home/steven/01.jpg
