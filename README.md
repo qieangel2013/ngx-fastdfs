@@ -2,7 +2,7 @@
 	进入docker目录
 	docker build -t  fastdfs:dev .
 ###使用
-	docker -idt -p 80:80 fastdfs:dev /bin/bash
+	docker run -idt -p 80:80 fastdfs:dev /bin/bash
 	进入容器执行
 	/etc/rc.local
 ###测试
