@@ -1,6 +1,8 @@
 ###install
 	进入docker目录
 	docker build -t  fastdfs:dev .
+	如果比较慢可以换一下网易的源
+	docker pull hub.c.163.com/qieangel2013/ngx-fastdfs:latest
 ###使用
 	docker run --net=host -idt -p 80:80 fastdfs:dev '/etc/rc.local'
 ###测试
