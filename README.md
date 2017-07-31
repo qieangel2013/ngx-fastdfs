@@ -44,6 +44,12 @@
 	使用方法是把nginx里的nginxauto.conf替换原有的或者自己按着该文件修改
 	把lua里的thumbnailauto.lua文件替换原有的或者自己按着该文件修改
 	注意：fastdfs的storage的配置/etc/fdfs/storage.conf中run_by_group和run_by_user，最好跟nginx的用户组配置一样
+### liveim是一款直播平台，内置im聊天功能
+	由于未开源，需要授权可以获取源代码
+http://www.weivq.com:88/ (演示地址)<br/>
+http://www.weivq.com:88/public/uploads/LiveIm.apk (安卓演示)
+![](https://github.com/qieangel2013/yaf/blob/master/public/images/jt.png)
+![](https://github.com/qieangel2013/yaf/blob/master/public/images/jtmobile.png)
 ### 交流使用
 	交流群：337937322
 ### 如果你对我的辛勤劳动给予肯定，请给我捐赠，你的捐赠是我最大的动力
