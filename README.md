@@ -51,7 +51,7 @@ http://www.weivq.com:88/public/uploads/LiveIm.apk (安卓演示)<br/>
 http://www.weivq.com:88/public/uploads/LiveImInstall.exe (pc端演示)
 ![](https://github.com/qieangel2013/yaf/blob/master/public/images/windowspc.png)
 ![](https://github.com/qieangel2013/yaf/blob/master/public/images/jt.png)
-![](https://github.com/qieangel2013/yaf/blob/master/public/images/jtmobile.png)
+![](https://github.com/qieangel2013/yaf/blob/master/public/images/jtmobilet.png)
 ### 交流使用
 	交流群：337937322
 ### 如果你对我的辛勤劳动给予肯定，请给我捐赠，你的捐赠是我最大的动力
