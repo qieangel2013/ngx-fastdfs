@@ -46,9 +46,9 @@
 	注意：fastdfs的storage的配置/etc/fdfs/storage.conf中run_by_group和run_by_user，最好跟nginx的用户组配置一样
 ### liveim是一款直播平台，内置im聊天功能
 	由于未开源，需要授权可以获取源代码
-http://www.weivq.com:88/ (演示地址)<br/>
-http://www.weivq.com:88/public/uploads/LiveIm.apk (安卓演示)<br/>
-http://www.weivq.com:88/public/uploads/LiveImInstall.exe (pc端演示)
+http://www.51bixue.com/ (演示地址)<br/>
+http://www.51bixue.com/public/uploads/LiveIm.apk (安卓演示)<br/>
+http://www.51bixue.com/public/uploads/LiveImInstall.exe (pc端演示)
 ![](https://github.com/qieangel2013/yaf/blob/master/public/images/windowspc.png)
 ![](https://github.com/qieangel2013/yaf/blob/master/public/images/jt.png)
 ![](https://github.com/qieangel2013/yaf/blob/master/public/images/jtmobilet.png)
